@@ -82,15 +82,17 @@ jupyter notebook
 ```
 
 The notebook (NLP_Gender_Profiling.ipynb) is structured as follows:
-    Imports
-    Function definitions for data preprocessing, features computation, model training, data visualization & features selection
-    --- (up to this point, all cells should be executed for the following code to work)
-    Constants and parameters definition (used features, classifier, scaler, etc.)
-    Loading raw corpus (files ./data/AMale.txt/AFemale.txt) or already preprocessed dataset (./data/*.pkl)
-    Compute statistics on the corpus
-    Data visualization with t-SNE
-    Word clouds for women and men
-    Feature selection with Shap
-    Gridsearch
-    Training of a classifier
-    Evaluation of the classifier
+1. Imports
+2. Function definitions for data preprocessing, features computation, model training, data visualization & features selection
+
+--- (up to this point, all cells should be executed for the following code to work)
+
+3. Constants and parameters definition (used features, classifier, scaler, etc.)
+4. Loading raw corpus (files ./data/AMale.txt/AFemale.txt) or already preprocessed dataset (./data/*.pkl)
+5. Compute statistics on the corpus
+6. Data visualization with t-SNE
+7. Word clouds for women and men
+8. Feature selection with Shap
+9. Gridsearch
+10. Training of a classifier
+11. Evaluation of the classifier
