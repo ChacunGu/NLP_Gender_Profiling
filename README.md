@@ -23,7 +23,7 @@ This project has been developped and tested in a Jupyter Notebook with Python 3.
 
 Multiple Python modules were used in this project. They were installed with Python's package manager pip. They are all listed along with their version in the file requirements.txt.
 
-To simplify the installation process, please consider using a virtual environement.
+To simplify the installation process, please consider using a virtual environment.
 
 ### Required files
 
@@ -32,31 +32,31 @@ A directory named 'data' has to be created in the root directory. It must contai
     AFemale.txt (original corpus containing women' tweets - not available for download)
     emoji-test.txt (list of existing emojis with their category - download link: https://unicode.org/Public/emoji/12.0/emoji-test.txt, consulted the 11th December 2019)
 
-### Virtual environement
+### Virtual environment
 
-Description of the installation and use of a Python's virtual environement on Windows.
+Description of the installation and use of a Python's virtual environment on Windows.
 
-Install the virtual environement module 'virtualenv':
+Install the virtual environment module 'virtualenv':
 ```
 pip install virtualenv
 ```
 
-In the root directory of the project, create a new virtual environement:
+In the root directory of the project, create a new virtual environment:
 ```
-[path to python.exe (3.7.4 64bits)] -m venv [environement's name]
-```
-
-Activate the virtual environement:
-```
-[environement's name]\Scripts\activate
+[path to python.exe (3.7.4 64bits)] -m venv [environment's name]
 ```
 
-Manually download the spaCy's english model (execute the following from the activated virtual environement):
+Activate the virtual environment:
+```
+[environment's name]\Scripts\activate
+```
+
+Manually download the spaCy's english model (execute the following from the activated virtual environment):
 ```
 python -m spacy download en_core_web_sm
 ```
 
-Manually download NLTK's files to use Punkt stemmer and SentiWordNet (execute the following from the activated virtual environement):
+Manually download NLTK's files to use Punkt stemmer and SentiWordNet (execute the following from the activated virtual environment):
 ```
 python
 import nltk
@@ -76,7 +76,7 @@ For more information about virtualenv please check the documentation on : https:
 
 ## Usage
 
-From the activated virtual environement, you can access the Jupyter Notebook:
+From the activated virtual environment, you can access the Jupyter Notebook:
 ```
 jupyter notebook
 ```
