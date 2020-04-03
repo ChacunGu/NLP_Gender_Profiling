@@ -69,7 +69,7 @@ exit()
 
 You can then automatically install all the remaining Python's modules required for the project to be working:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 For more information about virtualenv please check the documentation on : https://python-guide-pt-br.readthedocs.io/fr/latest/dev/virtualenvs.html
