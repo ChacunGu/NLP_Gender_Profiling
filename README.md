@@ -12,6 +12,8 @@ This seminar is worth 5 ECTS points. According to the European Credit Transfer a
 
 Fall 2019.
 
+**Project supervisor**: Prof. Dr. Jacques Savoy
+
 ## Team members
 
 - [Chacun Guillaume](https://github.com/ChacunGu)
